@@ -74,6 +74,7 @@
             <groupId>io.quarkiverse.config</groupId>
             <artifactId>quarkus-config-consul</artifactId>
         </dependency>
+
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-junit5</artifactId>

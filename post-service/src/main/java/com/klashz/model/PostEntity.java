@@ -17,6 +17,9 @@ public class PostEntity extends PanacheEntityBase {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     public String id;
+
+
+
     @NotNull @NotBlank
     public  String title;
     @NotNull @NotBlank
@@ -26,4 +29,18 @@ public class PostEntity extends PanacheEntityBase {
     public int likeCount;
     public List<String> tags;
     public int viewCount;
+
+    @Override
+    public String toString() {
+        return "PostEntity{" +
+                "id='" + id + '\'' +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", imageUrl='" + imageUrl + '\'' +
+                ", localdate=" + localdate +
+                ", likeCount=" + likeCount +
+                ", tags=" + tags +
+                ", viewCount=" + viewCount +
+                '}';
+    }
 }

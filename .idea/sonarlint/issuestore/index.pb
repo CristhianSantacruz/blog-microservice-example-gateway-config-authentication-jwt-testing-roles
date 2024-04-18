@@ -65,8 +65,6 @@ G
 gateway-service/HELP.md,a\a\aa2b361803409cecaa7e3f48cfb9104da5536ef5
 †
 Vgateway-service/src/main/java/com/klashz/gatewayservice/GatewayServiceApplication.java,4\6\46a4d0c703d6f052a2f8c39ed0257a777656dabd
-v
-Fcomment-service/src/main/java/com/klashz/service/GreetingResource.java,a\1\a19c5cc5f3099e2ee440d92c82ecb627675dfdf0
 f
 6post-service/src/main/resources/application.properties,4\b\4b55969f7b53097f1180de613a2fd01bda9fa924
 i
@@ -77,3 +75,7 @@ o
 ?comment-service/src/main/java/com/klashz/CommentServiceApp.java,6\d\6d6613d1e92692a15cb159b904d8c34c9694c46f
 g
 7jwt-service/src/main/java/com/klashz/JwtServiceApp.java,5\2\5261498e5101ba82d7d4cc1fce3ca3deba9cb726
+k
+;post-service/src/test/java/com/klashz/PostResourceTest.java,3\5\354211c92c88b2f92a5f3fffc242724a14b48903
+l
+<post-service/src/test/java/com/klashz/ExampleResourceIT.java,5\0\50d8fdae28e655c273bf1fa42f7578c7cf4a4445
