@@ -1,0 +1,13 @@
+
+Š
+java:S6813"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8ößĞî1J$99be09a6-b94a-4e1d-90ab-859bfd3f65f5
+Š
+java:S6813"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8ößĞî1J$2bb6019d-614b-4add-83fe-062d5b0b24a9
+«
+java:S3252A"cUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "findByIdOptional".(Â½Äøÿÿÿÿ8„àĞî1J$0f79a7f3-9e7e-405e-9522-e6cc288711e6
+¥
+java:S3252S"]Use static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "deleteById".(ò‹¤ßúÿÿÿÿ8‡àĞî1J$1b3318d0-516f-46c6-9f2a-ae48374c2c3c
+
+java:S3252X"[Use static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "findById".(îõŒ”8ˆàĞî1J$3d65814a-9a0a-4f4a-8c40-4f7fb6412ff4
+š
+java:S3252e"WUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "list".(»îğù8ŠàĞî1J$b5703c1c-ccb5-406c-b570-08b58dda84bd

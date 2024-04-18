@@ -1,0 +1,9 @@
+
+
+java:S3252"cUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "findByIdOptional".(áê°S8ŒÃ…Ðî1
+s
+java:S3252"WUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "list".(Ëâ®8ŽÃ…Ðî1
+…
+java:S3252 "cUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "findByIdOptional".(¥Õ·¥øÿÿÿÿ8’Ã…Ðî1
+z
+java:S3252-"]Use static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "deleteById".(žÚžÜ8–Ã…Ðî1

@@ -1,0 +1,17 @@
+
+œ
+java:S1104"TMake imageUrl a static final constant or non-public and provide accessors if needed.(¾îÎÎıÿÿÿÿ8èµÃî1J$a0cdecc8-99ab-4d12-bbf1-1f116a24c31f
+˜
+java:S1104"UMake localdate a static final constant or non-public and provide accessors if needed.(ÕÑ¢ì8èµÃî1J$da162bee-42a1-4cb9-aea4-d08574a99032
+˜
+java:S1104"UMake likeCount a static final constant or non-public and provide accessors if needed.(ö–­‚8èµÃî1J$2be1bb2b-e85f-452d-832d-b5dcee4a18b5
+“
+java:S1104"PMake tags a static final constant or non-public and provide accessors if needed.(ÑØ´Ê8©ÕÒÃî1J$bbfa54bf-4be8-498e-88c3-e7cd7c027f60
+
+java:S1104"UMake viewCount a static final constant or non-public and provide accessors if needed.(¡¸±Úÿÿÿÿÿ8èµÃî1J$0fa003e5-b7f2-4183-8533-b106a7e68d18
+
+java:S1128"KRemove this unused import 'io.quarkus.hibernate.orm.panache.PanacheEntity'.(£éò8ûĞ«Ãî1J$21ddd87b-9747-4061-92e4-4aab8685f112
+z
+java:S1128"7Remove this unused import 'jakarta.annotation.Nonnull'.(úæâù8üĞ«Ãî1J$fcd2cd63-3d77-4867-9aba-0e780f4e6b63
+s
+java:S1128"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ8Ë–­Åî1J$17a5986e-7b5b-4d20-aa8e-262462084192
