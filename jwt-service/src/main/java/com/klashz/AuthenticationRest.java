@@ -13,6 +13,7 @@ import jakarta.validation.Valid;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
+import org.eclipse.microprofile.openapi.annotations.Operation;
 
 import java.util.Optional;
 
@@ -25,6 +26,9 @@ public class AuthenticationRest {
 
     @Inject
     IUserService iUserService;
+
+    @Operation(summary = "User login endpoint.",
+    description = "This endpoint allows users to log in to the system. It receives a JSON object containing the username and password in the request body. It checks if the user exists in the system based on the provided username. If the user exists, it verifies if the provided password matches the stored password. If the credentials are correct, it generates a JWT token for the user and returns it in the response. If the user does not exist or the password is incorrect, it returns an appropriate error response.")
 
     @PermitAll
     @POST
@@ -41,6 +45,9 @@ public class AuthenticationRest {
         return Response.status(Response.Status.NOT_FOUND).entity("Not exists user").build();
 
     }
+
+    @Operation(summary = "User registration endpoint.",
+            description = "This endpoint allows users to register in the system. It receives a JSON object containing user details such as username, password, and other necessary information in the request body. It validates the provided user data using Bean Validation (@Valid). If the user data is valid, it saves the user in the system and returns a 201 Created status along with the saved user details in the response.")
 
     @PermitAll
     @POST
