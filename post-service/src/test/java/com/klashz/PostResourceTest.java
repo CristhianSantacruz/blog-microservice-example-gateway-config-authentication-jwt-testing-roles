@@ -1,13 +1,13 @@
 package com.klashz;
 
 import com.klashz.model.PostEntity;
+import io.quarkus.test.common.QuarkusTestResource;
 import io.quarkus.test.common.http.TestHTTPEndpoint;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import jakarta.enterprise.context.Dependent;
 import org.junit.jupiter.api.*;
-import org.springframework.context.annotation.DependsOn;
 
 import java.util.List;
 
@@ -24,6 +24,8 @@ class PostResourceTest {
     private static PostEntity afterSavePost;
     private static String testToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJqd3Qtc2VydmljZSIsInN1YiI6ImtsYXNoejEyMyIsImdyb3VwcyI6WyJhZG1pbiJdLCJleHAiOjE3MTM0NDg0MzU0MzIsImlhdCI6MTcxMzQ0ODQzMSwianRpIjoiYWMyMjA4M2ItZTFjMy00ZjFiLWJjYzMtZDVlZmQ2ODIzNzY2In0.pBG0jbGHiiTaoucdtHR61ZG7s3yAP813jCsSif-gCIqd6D-b3IWSkoeDcGQW3FcOsw3nWusqArAx8MYIL3vH2S30cbsqT8bitKEEMmYf2N4BvwWB-atLaFxbyE_dQuTky1Z2EBVLlaaAJpQQrGje0p1vFAnE6yTCQt6l5HrrtPsNC8V0_8OUum9P1zAraPPNV8f9XEvPvYCNC8C9PUxvNIoCEAC0BGHRVqEwqkuUWuUqfH8os2vt5A-4orCAl4YXvXQhIOhw7NKXEa1NaZ9vAZZcgS8GCdUWtPneM48ssjjmGXD2-93TeCoydsr0Cj7arD_tEzNeL2S8qvQGE-livQ";
 
+
+
     @BeforeAll
     public static void setup() {
         postTest = new PostEntity();
@@ -31,8 +33,8 @@ class PostResourceTest {
         postTest.title = "Quarkus";
         postTest.imageUrl = "http://image.example.com";
         postTest.tags = List.of("string","kotlin");
-    }
 
+    }
     @Test
     @Order(1)
     void savePost(){

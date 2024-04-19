@@ -79,3 +79,5 @@ k
 ;post-service/src/test/java/com/klashz/PostResourceTest.java,3\5\354211c92c88b2f92a5f3fffc242724a14b48903
 l
 <post-service/src/test/java/com/klashz/ExampleResourceIT.java,5\0\50d8fdae28e655c273bf1fa42f7578c7cf4a4445
+p
+@jwt-service/src/test/java/com/klashz/AuthenticationRestTest.java,b\9\b959ca0ac37db3b351aa10b7a66af6bcd68ca214
