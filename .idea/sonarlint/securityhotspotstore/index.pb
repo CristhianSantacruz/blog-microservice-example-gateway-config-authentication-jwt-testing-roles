@@ -81,3 +81,9 @@ l
 <post-service/src/test/java/com/klashz/ExampleResourceIT.java,5\0\50d8fdae28e655c273bf1fa42f7578c7cf4a4445
 p
 @jwt-service/src/test/java/com/klashz/AuthenticationRestTest.java,b\9\b959ca0ac37db3b351aa10b7a66af6bcd68ca214
+o
+?comment-service/src/test/java/com/klashz/ExampleResourceIT.java,e\3\e3354918f3996610d48adf8ebe684bafa029fc96
+q
+Acomment-service/src/test/java/com/klashz/CommentResourceTest.java,0\5\0574228dcf42cbbab918897ef3fb210e4cafd493
+m
+=comment-service/src/test/java/com/klashz/CommentWiremock.java,3\9\39cc35bc80c6581ea4e5d745c54295174872852f
