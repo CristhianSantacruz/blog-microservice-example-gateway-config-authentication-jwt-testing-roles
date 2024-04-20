@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/comment-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/comment-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-service-consul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-service-consul/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jwt-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jwt-service/src/main/resources" charset="UTF-8" />

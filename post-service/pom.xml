@@ -80,6 +80,14 @@
             <version>3.0.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.smallrye.stork</groupId>
+            <artifactId>stork-service-discovery-consul</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.smallrye.reactive</groupId>
+            <artifactId>smallrye-mutiny-vertx-consul-client</artifactId>
+        </dependency>
 
 
         <dependency>

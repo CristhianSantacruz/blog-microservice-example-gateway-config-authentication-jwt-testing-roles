@@ -13,10 +13,14 @@
         <module name="jwt-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-service-consul" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="comment-service" options="-parameters" />
+      <module name="config-service-consul" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="jwt-service" options="-parameters" />
       <module name="post-service" options="-parameters" />

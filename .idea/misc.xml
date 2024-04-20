@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/config-services" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -9,7 +12,13 @@
         <option value="$PROJECT_DIR$/comment-service/pom.xml" />
         <option value="$PROJECT_DIR$/jwt-service/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/config-service-consul/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/config-service-consul/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="corretto-19" project-jdk-type="JavaSDK" />
