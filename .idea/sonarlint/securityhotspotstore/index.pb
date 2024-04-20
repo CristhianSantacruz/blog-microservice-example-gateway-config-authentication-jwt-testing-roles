@@ -93,3 +93,5 @@ r
 Bcomment-service/src/main/java/com/klashz/CommentServiceConsul.java,9\b\9b68486afcf9a514f16c8b89b0db4541153d8f6f
 j
 :comment-service/src/main/java/com/klashz/Registration.java,4\a\4abcea7fcccd126bb6a8e9321991d59c7701d7de
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
