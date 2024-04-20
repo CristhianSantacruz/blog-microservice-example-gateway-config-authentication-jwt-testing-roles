@@ -29,6 +29,10 @@ public class PostDto {
         this.commentDtos = commentDtos;
     }
 
+    public int getCommentCount(){
+        return this.commentDtos.size();
+    }
+
     public String getId() {
         return id;
     }
